@@ -6,9 +6,9 @@ with a `Maybe (Maybe a)` return type.
 
 For example:
 
-  getHeadFromMaybeList : Maybe List -> Maybe a
-  getHeadFromMaybeList =
-    flatMap List.head
+    getHeadFromMaybeList : Maybe List -> Maybe a
+    getHeadFromMaybeList =
+      flatMap List.head
 
 # FlatMaps
 @docs flatMap, flatMap2, flatMap3, flatMap4, flatMap5
