@@ -11,7 +11,7 @@ For example:
     flatMap List.head
 
 # FlatMaps
-@docs flatMap
+@docs flatMap, flatMap2, flatMap3, flatMap4, flatMap5
 
 -}
 
