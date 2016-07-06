@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "summary": "flatMap over various Elm types and parameter counts",
     "repository": "https://github.com/ccapndave/elm-flat-map.git",
     "license": "BSD3",
@@ -7,7 +7,7 @@
         "./src"
     ],
     "exposed-modules": [
-      "Maybe.FlatMap"
+        "Maybe.FlatMap"
     ],
     "dependencies": {
         "elm-community/maybe-extra": "1.1.0 <= v < 2.0.0",
