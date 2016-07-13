@@ -1,4 +1,10 @@
-module Maybe.FlatMap exposing (..)
+module Maybe.FlatMap exposing
+  ( flatMap
+  , flatMap2
+  , flatMap3
+  , flatMap4
+  , flatMap5
+  )
 
 {-| This module implements the `flatMap` combinator for `Maybe`.  This allows you to call functions
 that return a `Maybe` with arguments that are also `Maybe`s without having to worry about ending up
