@@ -17,13 +17,13 @@ with a `List (List a)` return type.
 import List exposing (concatMap)
 
 
---join : List (List a) -> List a
+join : List (List a) -> List a
 join =
   List.foldr (++) []
 
 
 {-|-}
---flatMap : (a -> List b) -> List a -> List b
+flatMap : (a -> List b) -> List a -> List b
 flatMap f list =
   List.map f list
     |> join
